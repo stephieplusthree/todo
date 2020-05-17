@@ -11,7 +11,10 @@
     "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit"
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "axios": "^0.16.2",
     "bluebird": "^3.5.0",
     "chai": "^3.5.0",
     "expect": "^1.20.2",
@@ -24,6 +27,7 @@
     "nightmare-react-utils": "^1.0.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "save": "^2.4.0",
     "serve-favicon": "^2.5.0",
     "webpack": "^3.6.0"
   },
